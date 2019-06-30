@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "com.middle";
+option java_outer_classname = "Model";
+
+message Person {
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+}
+
+
+message Student {
+    int32 id = 1;
+    string name = 2;
+    double score = 3;
+}
